@@ -1,0 +1,33 @@
+@media (max-width: 600px) {
+    .liensnav {
+        flex-flow: column;
+        
+    }
+    .logo{
+        display: none;
+    }
+    .hero-container {
+        display: grid;
+        grid-template:  1fr 1fr / 1fr;
+        
+    }
+    /* p{
+        padding: 0px;
+        
+    } */
+    .hero-copy {
+        order: 2;
+    }
+    .hero-image {
+        order: 1;
+    }
+    .products{
+        grid-template: auto / 1fr;
+    }
+    .blog-posts {
+        grid-template: auto/1fr;
+    }
+   .top-nav {
+       justify-content: end;
+   }
+}
